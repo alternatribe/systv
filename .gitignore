@@ -1,13 +1,25 @@
 /node_modules
 /public/hot
 /public/storage
+/public/fonts
 /storage/*.key
 /vendor
-.env
+#.env
 .env.backup
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-/.vscode
+
+# IDE
+.idea/
+.vscode/
+.buildpath
+.project
+.settings/
+*.code-workspace
+
+package-lock.json
+public/css/app.css
+public/js/app.js

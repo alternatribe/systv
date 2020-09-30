@@ -1,0 +1,30 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+    padding: 70px 15px 0;
+    max-width: 100%;
+}
+
+.fas.btn {
+    font-weight: 900;
+}
+
+.dropdown > a.dropdown-toggle:hover {
+    text-decoration: none;
+}
+
+.card-header-bg {
+    background-color: rgb(143, 171, 184);
+}
+
+@media (min-width: 576px) {
+  .espaco-direita {
+    padding-right: 1.5rem !important;
+  }
+}
+
+hr {
+    border-color: black;
+}
